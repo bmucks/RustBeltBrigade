@@ -1,0 +1,167 @@
+@charset "utf-8";
+body{ 
+	overflow-x: hidden;
+  padding: 0;
+  margin-right: 2px;
+}
+ul.navlist {
+	border-color:black;
+	width:99%;
+}
+a {
+	text-decoration: none;
+	color:white;  
+}
+a:hover {
+	color:#4BB4E7
+}
+
+.container {
+	width: 100%;
+}
+.hero img {
+	
+	width:99%;
+}
+.header {
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(10,77,106,1) 99%);
+	display: inline;
+	height:.02em;
+	width: 100%;
+	
+}
+
+.icon {
+	margin-right: 7px;
+}
+.navlist {
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(10,77,106,1) 99%);
+	border:none;
+	
+	width: 100%;
+	
+}
+
+li:hover {
+	color:#3E85BF;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.name { font-size: 1.4em;}
+
+ul {
+	border-color: black;
+	background-color:#0B0B0B;
+	margin: .04em 0;
+}
+
+ul.navlist {
+	border-color:black;
+	border:none;
+	height:6.2em;
+}
+
+li {
+	
+	margin: .1em .1em;
+  display:inline-block;
+  color: antiquewhite;
+   padding: .2em 1.3em;
+  text-decoration: none;
+	background-color:#0A4D6a;
+}
+
+.navlist li {
+	background-color : rgba(6,4,4,.00)
+}
+.about {
+grid-area: about1 ;
+	margin:1em;
+	
+}
+
+.list {
+	border-color: black;
+	width:50%;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(10,77,106,.00) 99%);
+	
+	}
+
+li.list { 
+		font-size: 1.2em; 
+	font-family:'archivo black';
+	
+}
+
+
+.tube {	
+	grid-area: youtube;
+
+}
+
+
+.social {	
+	grid-area: spotify;
+		
+	}
+.footer {
+	grid-area: foot;
+	background-color:#0A4D6A;
+}
+
+.parent{
+		background-color:#0A4D6A;
+	
+}
+
+.flex-parent {
+	gria-area: tour;
+	
+	margin-left:4em;
+	
+	background-color:#0A4D6A;
+	
+  	display:flex;
+}
+.flex-child {
+	
+  flex: 1;
+}
+
+.child.flex-child img {
+	width:44vw;
+	
+}
+
+.list ul {
+	border-color:black;
+	background-color:#0A4D6A;
+	}
+
+
+.grid { 
+	display:grid;
+	 grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: .25fr .25fr .5fr .5fr ;
+  grid-template-areas: "about1 about1 spotify spotify" 
+	  "about1 about1 spotify spotify" 
+	  "tour tour tour tour"
+	  " foot foot foot foot";}
+
+.tourlist { 
+	display:inline;
+text-decoration: none;
+padding: .25em;
+border-bottom: solid 1px #39f;
+
+} 
+

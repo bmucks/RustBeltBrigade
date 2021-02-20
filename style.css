@@ -23,7 +23,7 @@ a {
 	color: white;
 }
 a:hover {
-	color: #4bb4e7;
+	color: #095d86;
 }
 
 .container {
@@ -58,7 +58,7 @@ h1 {
 	line-height: 50px;
 }
 a:hover {
-	color: #4bb4e7;
+	color: #025985;
 }
 
 .container {
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .navlist {
-	margin-left:40%;
+	margin-left:70%;
 	border: none;
 	width: 100%;
 	position:relative;
@@ -326,6 +326,7 @@ li.list {
 }
 
 .tourli {
+	width:90%;
 	z-index: 15;
 	opacity: 0.9;
 	background-color: #062631;
@@ -336,13 +337,14 @@ li.list {
 .button {
 	opacity: 0.96;
 	z-index: 100;
-	margin-top: 22%;
+	margin-top: 23.2%;
 	position: absolute;
 	background-color: #062631f5;
 	border: none;
 	font-size: 28px;
 	color: #ffffff;
-	padding: 20px;
+	border-radius: 10px;
+	padding: 10px;
 	width: 200px;
 	height:80px;
 	text-align: center;
@@ -363,10 +365,11 @@ li.list {
 	color: #ffffff;
 	padding: 20px;
 	width: 200px;
-	height:80px;
+	height:83px;
 	text-align: center;
 	text-decoration: none;
 	overflow: hidden;
+	border-radius: 10px;
 	cursor: pointer;
 }
 
@@ -522,7 +525,7 @@ ul#menu a {
 	position: absolute;
 	z-index: 2261;
 	top: 10%;
-	margin-left: 5%;
+	margin-left: 13%;
 	width: 50%; 
 	height: 90%; 
 	border-radius: 10%;
@@ -576,7 +579,7 @@ ul#menu a {
 }
 
 li:hover {
-	color: #3e85bf;
+	color: #08162b;
 }
 
 
